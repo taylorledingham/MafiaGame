@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  WelcomeViewController.h
 //  MafiaGame
 //
-//  Created by Audrey Jun on 2014-10-20.
+//  Created by Taylor Ledingham on 2014-10-20.
 //  Copyright (c) 2014 audreyjun. All rights reserved.
 //
 
@@ -10,11 +10,11 @@
 #import "Player.h"
 #import "Game.h"
 
-@interface ViewController : UIViewController
+@interface WelcomeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *welcomeMessageTextView;
 @property (strong, nonatomic) Player *currentPlayer;
 
 
 
 @end
-
